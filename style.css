@@ -1,0 +1,107 @@
+*{
+     margin:0;
+     padding:0;
+     box-sizing:board-box;
+font-family: Arial ,sans-serif;
+}
+body{
+    background:#f4f7fc;
+    color:#333;
+}
+ 
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:blue;
+    padding:50px;
+}
+
+.intro{
+    width:50%;
+}
+.intro h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.intro h2{
+    margin-bottom:15px;
+}
+.intro p{
+    line-height:1.8;
+}
+.photo-box{
+    width:40%;
+    text-align:center;
+}
+
+.profile{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+nav{
+    background:#1e3a8a;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+section{
+    background:white;
+    width:80%;
+    margin:30px auto;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px
+rgba(0,0,0,0.1);
+}
+
+h2{
+    color:32563eb;
+    margin-bottom:15px;
+}
+
+ul{
+    padding-left:20px;
+}
+footer{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    boarder-radius: 50%
+}
